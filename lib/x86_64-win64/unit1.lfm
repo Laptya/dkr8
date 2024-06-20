@@ -1,0 +1,108 @@
+object Form1: TForm1
+  Left = 345
+  Height = 301
+  Top = 191
+  Width = 309
+  Caption = 'Form1'
+  ClientHeight = 301
+  ClientWidth = 309
+  LCLVersion = '3.4.0.0'
+  object Edit1: TEdit
+    Left = 144
+    Height = 23
+    Top = 136
+    Width = 152
+    MaxLength = 2
+    NumbersOnly = True
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 144
+    Height = 23
+    Top = 104
+    Width = 152
+    MaxLength = 4
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 144
+    Height = 23
+    Top = 72
+    Width = 152
+    MaxLength = 9
+    NumbersOnly = True
+    TabOrder = 2
+  end
+  object RadioButton1: TRadioButton
+    Left = 8
+    Height = 19
+    Top = 8
+    Width = 115
+    Caption = 'Простой процент'
+    Checked = True
+    TabOrder = 5
+    TabStop = True
+  end
+  object RadioButton2: TRadioButton
+    Left = 8
+    Height = 19
+    Top = 32
+    Width = 121
+    Caption = 'Сложный процент'
+    TabOrder = 4
+  end
+  object Button1: TButton
+    Left = 168
+    Height = 25
+    Top = 248
+    Width = 75
+    Caption = 'Рассчитать'
+    TabOrder = 3
+    OnClick = Button1Click
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 15
+    Top = 72
+    Width = 107
+    Caption = 'Стартовый капитал'
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 15
+    Top = 104
+    Width = 94
+    Caption = 'Ставка (процент)'
+  end
+  object Label3: TLabel
+    Left = 8
+    Height = 30
+    Top = 136
+    Width = 124
+    Caption = 'Срок инвестирования '#13#10'(лет)'
+  end
+  object Button2: TButton
+    Left = 64
+    Height = 25
+    Top = 248
+    Width = 75
+    Caption = 'Справка'
+    TabOrder = 6
+    OnClick = Button2Click
+  end
+  object Label4: TLabel
+    Left = 104
+    Height = 15
+    Top = 184
+    Width = 90
+    Caption = 'Итоговая сумма'
+  end
+  object Edit4: TEdit
+    Left = 8
+    Height = 23
+    Top = 200
+    Width = 288
+    ReadOnly = True
+    TabOrder = 7
+  end
+end
